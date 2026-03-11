@@ -1,0 +1,45 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "disable_ai": false,
+  "languages": {
+    "TypeScript": {
+      "colorize_brackets": true
+    }
+  },
+  "diagnostics": {
+    "include_warnings": true
+  },
+  "outline_panel": {
+    "default_width": 180.0
+  },
+  "terminal": {
+    "dock": "right"
+  },
+  "buffer_font_family": "Hack",
+  "base_keymap": "VSCode",
+  "relative_line_numbers": "enabled",
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": "VSCode Dark Modern",
+}
